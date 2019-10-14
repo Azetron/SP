@@ -14,7 +14,15 @@ public class Main {
 		int indexOfImage = chpOneOne.createImage("Image");
 		int indexOfTable = chpOneOne.createTable("Table1");
 		
-		System.out.println(discatitanic);
+		chpOneOne.createParagraph("Paragraph 1");
+		chpOneOne.createParagraph("Paragraph 2");
+		chpOneOne.createParagraph("Paragraph 3");
+		chpOneOne.createImage("Image 1");
+		chpOneOne.createParagraph("Paragraph 4");
+		chpOneOne.createTable("Table 1");
+		chpOneOne.createParagraph("Paragraph 5");
+		
+		chpOneOne.print();
 		
 		
 	}
