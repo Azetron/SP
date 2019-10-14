@@ -55,7 +55,16 @@ public class SubChapter {
 	public Table getTable(int index) {
 		return t1.get(index);
 	}
-	public String toString() {
-		return this.T;
+	public void print() {
+		System.out.println("SubChapter : "+T);
+		for(Paragraph p : p1) {
+			System.out.println("Paragraph : "+p);
+		}
+		for(Image i : i1) {
+			System.out.println("Image : "+i);
+		}
+		for(Table t : t1) {
+			System.out.println("Table : "+t);
+		}
 	}
 }
