@@ -1,5 +1,5 @@
 
-public class Table {
+public class Table extends Element{
 	public String Nume;
 	
 	public Table() {}
@@ -14,5 +14,10 @@ public class Table {
 	}
 	public String toString() {
 		return this.Nume;
+	}
+	@Override
+	public void print() {
+		System.out.println(Nume);
+		
 	}
 }

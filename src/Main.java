@@ -10,9 +10,9 @@ public class Main {
 		Chapter chpOne = discatitanic.getChapter(indexOfChapter);
 		int indexOfSubChapter = chpOne.createSubChapter("ChapterOneOne");
 		SubChapter chpOneOne = chpOne.getSubChapter(indexOfSubChapter);
-		int indexOfParagraph = chpOneOne.createParagraph("Paragraph");
-		int indexOfImage = chpOneOne.createImage("Image");
-		int indexOfTable = chpOneOne.createTable("Table1");
+		//int indexOfParagraph = chpOneOne.createParagraph("Paragraph");
+		//int indexOfImage = chpOneOne.createImage("Image");
+		//int indexOfTable = chpOneOne.createTable("Table1");
 		
 		chpOneOne.createParagraph("Paragraph 1");
 		chpOneOne.createParagraph("Paragraph 2");

@@ -1,5 +1,5 @@
 
-public class Paragraph {
+public class Paragraph extends Element{
 	public String Nume;
 	
 	public Paragraph() {}
@@ -14,5 +14,10 @@ public class Paragraph {
 	}
 	public String toString() {
 		return this.Nume;
+	}
+	@Override
+	public void print() {
+		System.out.println(Nume);
+		
 	}
 }

@@ -1,5 +1,5 @@
 
-public class Image {
+public class Image extends Element{
 	public String Nume;
 	
 	public Image() {}
@@ -14,5 +14,10 @@ public class Image {
 	}
 	public String toString() {
 		return this.Nume;
+	}
+	@Override
+	public void print() {
+		System.out.println(Nume);
+		
 	}
 }
