@@ -17,8 +17,8 @@ public class SubChapter {
 	//List<Paragraph> p1 = new ArrayList<Paragraph>();
 	//List<Image> i1 = new ArrayList<Image>();
 	//List<Table> t1 = new ArrayList<Table>();
-	List<Element> e1 = new ArrayList<Element>()
-			;
+	List<Element> e1 = new ArrayList<Element>();
+		
 	public void addParagraph(Paragraph paragraph) {
 		e1.add(paragraph);
 		
